@@ -64,5 +64,10 @@ class Gitauth {
     function git_user_data(){
         return $_SESSION['response'];
     }
+    function git_user_logout($redirect){
+        session_destroy();
+        
+        header('location: '.$redirect);
+    }
 }
 ?>
