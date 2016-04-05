@@ -23,11 +23,12 @@ Thats it !
 
 ### How to use
 
-#####just have 4 functions
+#####just have 5 functions
 - git_response_callback() -> this function to response after redirect callback from github
 - git_authorize_url() -> this to generate link to login with github
 - git_user_token() -> to get user access token 
-- git_user_data() -> to get user data 
+- git_user_data() -> to get user data
+- git_user_logout($redirect) -> to logout user with parameter to redirect user after logout
 
 Simple !
 
