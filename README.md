@@ -8,7 +8,7 @@ First you must register your application
 here [https://github.com/settings/applications/new](https://github.com/settings/applications/new)
 then you has detail of your application
 like client_id, client_secret and next
-copy and put the config in `gitauth/git.php` like below  
+copy and put in `gitauth/git.php` like below  
 
 ```php
 $config = array('app_name' => '', //your application name
